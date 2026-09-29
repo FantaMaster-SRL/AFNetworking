@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(name: "AFNetworking",
                       platforms: [.macOS(.v10_13),
-                                  .iOS(.v16),
+                                  .iOS(.v12),
                                   .tvOS(.v12),
                                   .watchOS(.v4)],
                       products: [

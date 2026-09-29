@@ -38,4 +38,8 @@
     #import "AFURLSessionManager.h"
     #import "AFHTTPSessionManager.h"
 
+#if TARGET_OS_IOS || TARGET_OS_TV
+    #import "UIKit+AFNetworking/UIKit+AFNetworking.h"
+#endif
+
 #endif /* _AFNETWORKING_ */
